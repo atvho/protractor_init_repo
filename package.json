@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node node_modules/protractor/bin/webdriver-manager update",
+    "webdriver-manager": "node node_modules/protractor/bin/webdriver-manager start",
+    "test": "protractor"
+  },
+  "author": "Alexey",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-spec-reporter": "^5.0.2",
+    "protractor": "^5.4.4"
+  }
+}
